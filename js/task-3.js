@@ -22,7 +22,6 @@ class StringBuilder {
   }
 }
 
-// Test işlemleri
 const builder = new StringBuilder(".");
 console.log(builder.getValue()); // "."
 builder.padStart("^");
